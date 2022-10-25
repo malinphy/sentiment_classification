@@ -1,3 +1,15 @@
+Docker
+----
+Docker pull command:
+```
+docker pull maliphy/sentiment_class
+```
+Docker run for prediction:
+```
+docker run -t -i maliphy/sentiment_class:v1
+```
+Evaluation
+----
 Twitter sentiment analysis
 ```
                    precision recall  f1-score   support
