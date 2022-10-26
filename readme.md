@@ -1,3 +1,21 @@
+# Sentiment Classification
+
+Sentiment classification for twitter dataset.
+
+Data
+----
+Twitter dataset on kaggle : https://www.kaggle.com/datasets/jp797498e/twitter-entity-sentiment-analysis
+
+File Description :
+----
+- LE.pkl : pickle file for Label encoder 
+- tv_layer.pkl : pickle file for Tensorflow text vectorization
+- model.py : nueral network model
+- prediction_fast.py : prediction file for deployment purpose 
+- sentiment_analysis.py : training file 
+- sentiment_model.h5 : model weights 
+- requirements.txt : dependencies 
+
 Docker
 ----
 Docker pull command:
