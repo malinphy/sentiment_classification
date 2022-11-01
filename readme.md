@@ -1,8 +1,12 @@
 # Sentiment Classification
+
+Overview :
 This study model is constructed as feed forward neural network
-using  Tensorflow/Keras framework. Model composed of 3 dense layers 
+using  Tensorflow/Keras framework on Twitter dataset. Model composed of 3 dense layers 
 with relu activation function. As final layer a dense layer with 
 softmax activation function. 
+Performance of the model can be seen in evaluation section.
+Prediction file, model ,dictionaries ,model weights were dockerized. Docker file can be pulled from docker hub.
 
 Data
 ----
