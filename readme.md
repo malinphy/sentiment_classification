@@ -1,6 +1,8 @@
 # Sentiment Classification
-
-Sentiment classification for twitter dataset.
+This study model is constructed as feed forward neural network
+using  Tensorflow/Keras framework. Model composed of 3 dense layers 
+with relu activation function. As final layer a dense layer with 
+softmax activation function. 
 
 Data
 ----
